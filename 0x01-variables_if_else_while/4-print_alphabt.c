@@ -3,7 +3,7 @@
 /**
  *  main - entry point
  *
- * Return: always 0 (success).
+ * Return: always 0.
 */
 
 int main(void)
@@ -11,16 +11,14 @@ int main(void)
 char m = 'a';
 while (m <= 'z')
 {
-putchar(m);
-m++;
-}
-m = 'A';
-while (m <= 'Z')
+if (m == 'q' || m == 'e')
 {
+m++;
+continue;
+}
 putchar(m);
 m++;
 }
-
 putchar('\n');
 return (0);
 }

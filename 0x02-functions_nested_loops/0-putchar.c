@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
  * main - entery point
  *
@@ -6,8 +7,19 @@
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-printf("_putchar\n");
+
+char name[] = "_putchar";
+int a;
+
+for (a = 0; a < 8; ++a)
+{
+putchar(name[a]);
+}
+
+putchar('\n');
+
 return (0);
 }

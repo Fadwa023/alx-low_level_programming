@@ -12,8 +12,12 @@ int x, y;
 int z;
 
 for (x = 0; s[x] != 0; x++)
+{
+}
+
 y = 0;
 x = x - 1;
+
 while (y < x)
 {
 z = s[x];

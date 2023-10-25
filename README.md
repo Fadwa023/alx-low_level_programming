@@ -1,1 +1,1 @@
-C programming language learning repo
+This repo is created for C  programing language learning
